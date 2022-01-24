@@ -1,10 +1,10 @@
-#ifndef SINGLE_LINKED_LIST_CPP
-#define SINGLE_LINKED_LIST_CPP
+#ifndef TREE_CPP
+#define TREE_CPP
 
-#include "singleLL.hpp"
+#include "tree.hpp"
 
 // template <typename T>
-SingleLL::SingleLL()
+Tree::Tree()
 {
     this->head = NULL;
     this->tail = NULL;
@@ -12,22 +12,22 @@ SingleLL::SingleLL()
 }
 
 // template <typename T>
-void SingleLL::push_back(int data)
+void Tree::push_back(int data)
 {
-    sllNode *newNode = new sllNode(data);
+    treeNode *newNode = new treeNode(data);
     newNode->next = head;
     head = newNode;
     length++;
 }
 
 // template <typename T>
-int SingleLL::size()
+int Tree::size()
 {
-    cout << "This is SingleLL" << endl;
+    cout << "This is Tree" << endl;
     return length;
 }
 
-// SingleLL()
+// Tree()
 // {
 //     head = NULL;
 //     tail = NULL;

@@ -1,10 +1,10 @@
-#ifndef SINGLE_LINKED_LIST_CPP
-#define SINGLE_LINKED_LIST_CPP
+#ifndef DOUBLE_LINKED_LIST_CPP
+#define DOUBLE_LINKED_LIST_CPP
 
-#include "singleLL.hpp"
+#include "doubleLL.hpp"
 
 // template <typename T>
-SingleLL::SingleLL()
+DoubleLL::DoubleLL()
 {
     this->head = NULL;
     this->tail = NULL;
@@ -12,22 +12,22 @@ SingleLL::SingleLL()
 }
 
 // template <typename T>
-void SingleLL::push_back(int data)
+void DoubleLL::push_back(int data)
 {
-    sllNode *newNode = new sllNode(data);
+    dllNode *newNode = new dllNode(data);
     newNode->next = head;
     head = newNode;
     length++;
 }
 
 // template <typename T>
-int SingleLL::size()
+int DoubleLL::size()
 {
-    cout << "This is SingleLL" << endl;
+    cout << "This is DoubleLL ok" << endl;
     return length;
 }
 
-// SingleLL()
+// DoubleLL()
 // {
 //     head = NULL;
 //     tail = NULL;

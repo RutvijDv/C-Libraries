@@ -1,16 +1,16 @@
-#ifndef SINGLE_LINKED_LIST_HPP
-#define SINGLE_LINKED_LIST_HPP
+#ifndef DOUBLE_LINKED_LIST_HPP
+#define DOUBLE_LINKED_LIST_HPP
 
 #include <bits/stdc++.h>
 using namespace std;
 
 // template <typename int>
-struct sllNode
+struct dllNode
 {
     int data;
-    sllNode *next;
+    dllNode *next;
 
-    sllNode(int data)
+    dllNode(int data)
     {
         this->data = data;
         this->next = NULL;
@@ -19,15 +19,15 @@ struct sllNode
 
 // A class to represent a Singly Linked List
 // template <typename int>
-class SingleLL
+class DoubleLL
 {
 private:
-    sllNode *head;
-    sllNode *tail;
+    dllNode *head;
+    dllNode *tail;
     int length;
 
 public:
-    SingleLL();
+    DoubleLL();
     void push_back(int data);
     void push_front(int data);
     void insert(int data, int pos);
@@ -37,8 +37,8 @@ public:
     int get(int pos);
     void reverse();
     void reverseRecursive();
-    void reverseRecursive(sllNode *prev, sllNode *curr);
-    void reverseRecursive(sllNode *prev, sllNode *curr, sllNode *next);
+    void reverseRecursive(dllNode *prev, dllNode *curr);
+    void reverseRecursive(dllNode *prev, dllNode *curr, dllNode *next);
 };
 
 #endif
