@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#include "singleLL.hpp"
-#include "doubleLL.hpp"
-#include "tree.hpp"
+#include "cpplib.hpp"
 
 int main()
 {

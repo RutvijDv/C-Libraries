@@ -2,15 +2,15 @@
 cmake_minimum_required(VERSION 3.16.3)
 
 # variables
-set(PROJECT_NAME "MAIN.EXE")
+set(PROJECT_NAME "main.exe")
 set(LIBRARY "cpplib")
 
 set(MAIN_CPP "./example/main.cpp")
 set(SRC_DIR "./src" )
 
 # files
-file(GLOB INC_DIRS "./include/*" )
-file(GLOB INC_FILES "./include/*/*.hpp" )
+file(GLOB INC_DIRS "./include" )
+file(GLOB INC_FILES "./include/cpplib.hpp" )
 
 # main project name 
 project(${PROJECT_NAME})
