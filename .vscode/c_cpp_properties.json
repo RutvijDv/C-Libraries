@@ -3,9 +3,11 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}\\**\\**",
-                "D:\\CPP_Libraries\\example\\**"
+                "${workspaceFolder}/include/linked-list"
             ],
+            "browse": {
+                "path": ["${workspaceFolder}/*"]
+              },
             "defines": [
                 "_DEBUG",
                 "UNICODE",
@@ -14,7 +16,8 @@
             "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
             "cStandard": "gnu11",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x86"
+            "intelliSenseMode": "windows-gcc-x86",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4

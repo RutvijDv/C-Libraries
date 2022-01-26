@@ -16,21 +16,18 @@ int main()
 
     DoubleLL dll;
     dll.push_back('a');
-    dll.push_back('b');
-    dll.push_back('c');
 
     cout << "Size: " << dll.size() << endl;
 
     Tree t;
     t.push_back('a');
-    t.push_back('b');
-    t.push_back('c');
+    t.push_back('a');
+    t.push_back('a');
+    t.push_back('a');
 
-    cout << "Size: " << t.size() << endl;
+    cout << "Size: 1233" << t.size() << endl;
 
     cout << "Hello" << endl;
 
     return 0;
 }
-
-// g++ .\example\example.cpp .\src\linked-list\singleLL.cpp -I .\include\linked-list\ -o pg3.exe

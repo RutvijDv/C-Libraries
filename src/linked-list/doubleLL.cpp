@@ -1,5 +1,5 @@
-#ifndef DOUBLE_LINKED_LIST_CPP
-#define DOUBLE_LINKED_LIST_CPP
+#ifndef DOUBLE_LIST_CPP
+#define DOUBLE_LIST_CPP
 
 #include "doubleLL.hpp"
 
@@ -23,7 +23,7 @@ void DoubleLL::push_back(int data)
 // template <typename T>
 int DoubleLL::size()
 {
-    cout << "This is DoubleLL ok" << endl;
+    cout << "This is DoubleLL" << endl;
     return length;
 }
 

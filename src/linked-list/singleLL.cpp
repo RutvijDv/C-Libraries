@@ -1,5 +1,5 @@
-#ifndef SINGLE_LINKED_LIST_CPP
-#define SINGLE_LINKED_LIST_CPP
+#ifndef SINGLE_LIST_CPP
+#define SINGLE_LIST_CPP
 
 #include "singleLL.hpp"
 
