@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: configure
-      run: make configure
+      run: make config
     - name: build
       run: make create
     - name: test
