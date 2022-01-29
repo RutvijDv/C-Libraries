@@ -11,7 +11,7 @@ set(TEST_DIR "./tests")
 set(TEST_EXE "tests.exe")
 
 # files
-file(GLOB INC_DIRS "./include" "./external/*" )
+file(GLOB INC_DIRS "./include" "./ext/*" )
 file(GLOB INC_FILES "./include/cpplib.hpp")
 
 # main project name 
