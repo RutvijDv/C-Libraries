@@ -18,7 +18,7 @@ TEST_CASE("Constructing Linked Lists and trees 1", "[constructors]")
         sll.push_back('b');
         sll.push_back('c');
 
-        REQUIRE(4 == 3);
+        REQUIRE(sll.size() == 3);
     }
     SECTION("Tree Construction 1")
     {
